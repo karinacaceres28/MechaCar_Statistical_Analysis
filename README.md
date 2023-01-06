@@ -1,10 +1,10 @@
 # MechaCar_Statistical_Analysis
 ## Objective
 The purpose of this project is to aid in AutosRU’s newest prototype called MechaCar due to issues with troubling production, thus preventing any progress with the manufacturing team. Objectives include:
-  •	Performing multiple linear regression analysis to identify which variables in the dataset predict the mpg of the new prototype
-  •	Collection of summary statistics on the pound per square inch of the suspension coils from the manufacturing lots
-  •	Running t-test for determining if the manufactured lots are statistically different from the mean population
-  •	Designing a statistical study to compare vehicle performance of MechaCar vehicles against vehicles from other manufactures
+    •	Performing multiple linear regression analysis to identify which variables in the dataset predict the mpg of the new prototype
+    •	Collection of summary statistics on the pound per square inch of the suspension coils from the manufacturing lots
+    •	Running t-test for determining if the manufactured lots are statistically different from the mean population
+    •	Designing a statistical study to compare vehicle performance of MechaCar vehicles against vehicles from other manufactures
 
 ## Linear Regression to Predict MPG
 ### Figure 1: Sample of MechaCar Dataset
@@ -55,10 +55,15 @@ The figure above shows the t-test for lot 3. We can see that lot 3 is different 
 
 ## Study Design: MechaCar vs Competition
 When comparing how MechaCar performs against other competition, it would be beneficial to determine which metrics would be of interest to a consumer.
-  •	Metric: maintenance cost.
-  •	Hypothesis:
+    •	Metric: maintenance cost.
+    
+    •	Hypothesis:
+    
       o	Null: The maintenance cost will be zero.
+      
       o	Alternative: The maintenance cost will be less than the average car.
-  •	Statistical Test: We can use multiple linear regression statistical summary between the car parts to determine which parts would make the car cheaper to fix. 
-  •	Data: The data needed would be the price of the car parts, and the lifespan of the parts the car is made from.
+      
+    •	Statistical Test: We can use multiple linear regression statistical summary between the car parts to determine which parts would make the car cheaper to fix. 
+    
+    •	Data: The data needed would be the price of the car parts, and the lifespan of the parts the car is made from.
 
