@@ -19,9 +19,7 @@ As shown in the image above, the dataset contains 50 prototypes MechaCars. The f
 The image above shows the summary of the linear model. 
 
     •	The p-value for vehicle length is 2.60e-12. The p-value for vehicle weight is 0.0776. For the spoiler angle it is 0.3096. Ground clearance has a p-value of 5.21e-08, and AWD has it as 0.1852. It can be noted that the values that provide non-random amount of variance are vehicle length and ground clearance due to being significantly less than 0.5
-
     •	The slope for vehicle length is 6.267e+00. The slope for vehicle weight is 1.245e-03. For the spoiler angle it is 6.877e-02. Ground clearance has a slope of 3.546e+00, and AWD has it as -3.411e+00. It can be noted that the slope of the linear model would not be considered zero. When converted from scientific notation, we can see that vehicle length (6.267) and ground clearance (3.546) are above zero and AWD (-3.411) is below zero.
-
     •	Being that the R-squared has a value of 0.7149, we can determine that the model does predict mpg of MechaCar prototypes effectively.
 
 
